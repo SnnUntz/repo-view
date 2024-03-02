@@ -262,7 +262,7 @@ async function gotoPath(path, boolUpdateHistory = true, disableAels = true) {
       if (!Prism.languages[lang]) {
         var _ = /\blang(?:uage)?-([\w-]+)\b/i.exec(txt);
         if (_) lang = _[1];
-        else lang = "none";
+        else lang = "text";
       }
       // if (Prism.languages[lang]) {
       pre.className = "line-numbers language-" + lang;
