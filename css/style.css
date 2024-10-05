@@ -339,7 +339,7 @@ article.readme,
 
 .loader--spinner div:after,
 .loader--ellipsis div {
-  background: crimson;
+  background: #4CAF50;
 }
 
 .loader--spinner {
