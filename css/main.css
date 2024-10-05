@@ -96,7 +96,7 @@ div.footer {
     bottom: 2px;
 }
 
-html[acknowledgement-hidden="true"] div.footer:has(.made-with-love) {
+html div.footer:has(.made-with-love) {
     display: none;
 }
 
@@ -115,10 +115,10 @@ body:has(#preview-div[hidden]) div.footer
 
 #main-loader-spinner-div {
     position: fixed;
-    top: 60%;
-    zoom: 5;
+    top: 50%;
+    zoom: 2;
     left: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -50%);
 }
 body:has(ul.tree:not([hidden])) div#main-loader-spinner-div,
 body:has(#preview-div:not([hidden])) div#main-loader-spinner-div,
